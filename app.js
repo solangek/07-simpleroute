@@ -6,3 +6,4 @@ const server = http.createServer(routes.handler);
 server.listen(3000);
 
 // run this example by typing: node app.js in the terminal
+// browse to http://localhost:3000/

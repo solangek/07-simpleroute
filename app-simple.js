@@ -11,3 +11,4 @@ const server = http.createServer( (req, res) => {
 server.listen(3000);
 
 // run this example with "node app-simple.js"
+// browse to http://localhost:3000/
