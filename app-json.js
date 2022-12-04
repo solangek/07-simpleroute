@@ -9,7 +9,9 @@ const server = http.createServer( (req, res) => {
             job: 'Dev',
             age: 30
         };
+
         res.end(JSON.stringify(myobj)); // must convert to String before sending
+
     } else {
         res.statusCode = 404;
         res.end();
